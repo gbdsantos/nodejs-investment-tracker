@@ -1,0 +1,34 @@
+# Variables
+@BASE_URL = http://localhost:3333
+
+### Create a new investment goal
+POST {{BASE_URL}}/investment-goals
+Content-Type: application/json
+
+{
+  "name": "My new car",
+  "total_amount": 3000,
+  "months": ["JANUARY", "FEBRUARY", "MARCH"]
+}
+
+### List all investment goals
+GET {{BASE_URL}}/investment-goals
+
+### Get an investment goal by ID
+# @prompt investmentGoalId investment goal ID
+GET {{BASE_URL}}/investment-goals/{{investmentGoalId}}
+
+### Update an investment goal by ID
+# @prompt investmentGoalId investment goal ID
+PUT {{BASE_URL}}/investment-goals/{{investmentGoalId}}
+Content-Type: application/json
+
+{
+  "name": "My new house",
+  "total_amount": 250000,
+  "months": ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE"]
+}
+
+### Delete an investment goal by ID
+# @prompt investmentGoalId investment goal ID
+DELETE {{BASE_URL}}/investment-goals/{{investmentGoalId}}
