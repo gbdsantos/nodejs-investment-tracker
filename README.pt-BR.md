@@ -88,7 +88,7 @@ Utilizar um REST Client de sua preferência (ex: **Insomnia**, **Postman**, etc)
 ## Requisitos de Negócio (BR)
 
 - [x] As rotas de criação e atualização devem validar os dados enviados, incluindo: nome, mês(es) e valor.  
-- [ ] Além disso, o valor deve ser distribuído igualmente entre os meses registrados.  
+- [x] Além disso, o valor deve ser distribuído igualmente entre os meses registrados.  
 - [x] A rota de listagem deve permitir filtros por nome e mês.  
 
 ## Extras

@@ -32,7 +32,7 @@
 
 <div align="center">
   <h4 align="center">read in the language</h4>
-  <a href="https://github.com/gbdsantos/nodejs-investment-tracker/blob/main/README.pt-br.md" hreflang="pt-br">
+  <a href="https://github.com/gbdsantos/nodejs-investment-tracker/blob/main/README.pt-BR.md" hreflang="pt-br">
     🇧🇷 portuguese
   </a>
 </div>
@@ -89,7 +89,7 @@ To test the API endpoints, you can:
 ## Business Requirements (BR)
 
 - [x] The creation and update route must validate the submitted data, which includes: name, month(s), and value. 
-- [ ] Additionally, the value must be evenly divided among the registered months. 
+- [x] Additionally, the value must be evenly divided among the registered months. 
 - [x] The listing route must allow filters by name and month.
 
 ## Extra mile
@@ -117,4 +117,4 @@ To test the API endpoints, you can:
 This project is licensed under the Creative Commons Attribution-NonCommercial (CC BY-NC 4.0) license. See [LICENSE](https://github.com/gbdsantos/nodejs-investment-tracker/blob/main/LICENSE) for more information.
 
 ---
-Made with ❤️ by 🧑‍🚀 **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos)
+Made with ❤️ by **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos)
